@@ -6,22 +6,28 @@ Sample script to create Cloud9 environment for rapid prototyping.
 
 1. Open [CloudShell](https://console.aws.amazon.com/cloudshell/home)
 2. Clone this repository
+
 ```bash
-git clone https://github.com/aws-samples/cloud9-setup-for-prototyping
+git clone https://github.com/statefb/cloud9-setup-for-prototyping
 ```
+
 3. Move to the directory
+
 ```bash
 cd cloud9-setup-for-prototyping
 ```
+
 4. Execute the script with default parameters
+
 ```bash
 ./bin/bootstrap
 ```
+
 5. Move to [Cloud9](https://console.aws.amazon.com/cloud9/home) and click "Open IDE".
 
 ## Cloud9 for Prototyping
 
-- Amazon Linux 2.x on m5.large
+- Ubuntu 22.04 on m5.large
 - Change instance volume from 10GB to 128GB
 - Update AWS CLI version from 1.x to 2.x
 - Automatic stop time minutes is 30 min
